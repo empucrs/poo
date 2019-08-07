@@ -55,37 +55,37 @@ O passo seguinte deve ser a validação do código "assumido". Acesse seu projet
 
 A seguir, modifique os arquivos .java. Crie um método toString para a classe carro, que deve imprimir a quilometragem e a qtde de litros disponivel no carro quanto utilizado o comando de impressão System.out.println. Na classe principal, crie uma entrada no menu que permita a chamada do método toString da classe carro. Valide para garantir que suas modificações estão funcionando corretamente. Uma vez validado, salve tais arquivos no seu repositorio do github. Para isto, os seguintes passos deverão ser realizados:
 
-1. Identifique quem voce é no console
-1.1. git config --global user.name "seu nome de usuário"
-1.2. git config --global user.email "o mail que cadastrou no seu perfil"
-2. Observe o que foi modificado
-2.1. git status
-3. Salve localmente as modificações
-3.1. git commmit -am "insira uma mensagem que deixe claro a modificação que foi realizada nos arquivos que serão salvos"
-4. Transfira para o github
-4.1. git push
-4.1.1. Nesta etapa, será solicitado seu username e senha de acesso ao github
-5. Teste se sua modificação no github foi salva
-5.1. crie um diretorio tmp em um local a parte
-5.2. Execute o comando de clonagem novamente (**_git clone http://github.com/<seueEspaço>/nomeDoRepositorio.git**)
-5.3. Abra os arquivos .java e confira se as últimas modificações estão presente.* 
+* Identifique quem voce é no console
+  * git config --global user.name "seu nome de usuário"
+  * git config --global user.email "o mail que cadastrou no seu perfil"
+* Observe o que foi modificado
+  * git status
+* Salve localmente as modificações
+  * git commmit -am "insira uma mensagem que deixe claro a modificação que foi realizada nos arquivos que serão salvos"
+* Transfira para o github
+  * git push
+    * Nesta etapa, será solicitado seu username e senha de acesso ao github
+* Teste se sua modificação no github foi salva
+  * crie um diretorio tmp em um local a parte
+  * Execute o comando de clonagem novamente (**_git clone http://github.com/<seueEspaço>/nomeDoRepositorio.git**)
+  * Abra os arquivos .java e confira se as últimas modificações estão presente.* 
 
 ### Atividade 3 - Modelagem e implementação de software
 
 Desenvolva um programa em java considerando a seguinte descrição:
 
-1. Crie um diretorio onde voce deverá elaborar o seguinte programa
+* Crie um diretorio onde voce deverá elaborar o seguinte programa
 
 Elabore um programa que permita o cadastramento de funcionários e departamentos de uma empresa. A empresa deve ter no máximo 5 departamentos. Os funcionários podem ser de 3 tipos: (a) operários, (b) secretário ou (c) Gerente. Cada departamento deve ter exatamente um gerente e um secretário e no máximo 5 funcionários. Para evitar confitos na empresa, a diferença salarial entre os funcionários de um departamento deve ser de no máximo de 20%. Ao final, deve ser possível listar os funcionários, os departamentos e os departamentos e seus funcionários.
 
-2. Salve seu código no github
-2.1. De dentro do diretorio onde criou o seu código digite
-2.1.1. *git init*
-2.1.2. *git add \*.java .*
-2.1.3. *git commit -m "primeira versao do codigo"*
-2.1.4. Acesse seu espaço no github e crie um repositorio zerado
-2.1.4.1. Acesse github.com e faça login
-2.1.4.2. Clique na aba Repositorio/Repository
-2.1.4.3. Clique em novo/new, de o nome novoRepositorio ao seu repositorio e em seguida clique no botão Criar Repositorio ao final da página
-2.1.5. De volta ao console, digite *git remote add origin https://github.com/seuEspaço/novoRepositorio*
-2.1.6. *git push -u origin master*
+* Salve seu código no github
+  * De dentro do diretorio onde criou o seu código digite
+    * *git init*
+    * *git add \*.java .*
+    * *git commit -m "primeira versao do codigo"*
+    * Acesse seu espaço no github e crie um repositorio zerado
+      * Acesse github.com e faça login
+      * Clique na aba Repositorio/Repository
+      * Clique em novo/new, de o nome novoRepositorio ao seu repositorio e em seguida clique no botão Criar Repositorio ao final da página
+    * De volta ao console, digite *git remote add origin https://github.com/seuEspaço/novoRepositorio*
+    * *git push -u origin master*
