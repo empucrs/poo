@@ -51,7 +51,7 @@ Considere partir de um código disponível no github, elaborado por um terceiro.
 
 Para tanto, vamos utilizar o código disponivel no [repositorio poo-Aula01-Atividade02](https://github.com/empucrs/poo-Aula01-Atividade02). Este código deverá ser "assumido" em sua conta, baixado de lá, modificado e posteriormente atualizado no github. Ao "assumir" o repositório, o resultado será a realização de uma cópia do estado atual daquele repositório para a sua conta. Assim, pode-se modificar este repositório "assumido" sem causar danos a versão original. Para "assumir" um repositório, acesse o mesmo e, considerando que voce esteja logado em sua conta do github, clique na opção **fork**. O resultado final é, como dito, uma cópia do repositório desejado em sua conta.
 
-O passo seguinte deve ser a validação do código "assumido". Acesse seu projeto e baixe para o seu computador. Caso voce tenha o cliente git instalado em sua máquina, basta abrir o console e digitar o comando **_git clone http://github.com/<seueEspaço>/nomeDoRepositorio.git**. Será feita uma clonagem do seu código. Avance nas pastas até encontrar os arquivos principal.java e carro.java. Em seguida, digite o seguinte comando no console: **_javac *.java_**. Como resultado, serão criados dois arquivos .class (principal.class e carro.class). Execute o código a partir do comando **_java principal_** e manipule os menus. 
+O passo seguinte deve ser a validação do código "assumido". Acesse seu projeto e baixe para o seu computador. Caso voce tenha o cliente git instalado em sua máquina, basta abrir o console e digitar o comando **_git clone http://github.com/<seuEspaço>/nomeDoRepositorio.git_**. Será feita uma clonagem do seu código. Avance nas pastas até encontrar os arquivos principal.java e carro.java. Em seguida, digite o seguinte comando no console: **_javac *.java_**. Como resultado, serão criados dois arquivos .class (principal.class e carro.class). Execute o código a partir do comando **_java principal_** e manipule os menus. 
 
 A seguir, modifique os arquivos .java. Crie um método toString para a classe carro, que deve imprimir a quilometragem e a qtde de litros disponivel no carro quanto utilizado o comando de impressão System.out.println. Na classe principal, crie uma entrada no menu que permita a chamada do método toString da classe carro. Valide para garantir que suas modificações estão funcionando corretamente. Uma vez validado, salve tais arquivos no seu repositorio do github. Para isto, os seguintes passos deverão ser realizados:
 
@@ -67,7 +67,7 @@ A seguir, modifique os arquivos .java. Crie um método toString para a classe ca
     * Nesta etapa, será solicitado seu username e senha de acesso ao github
 * Teste se sua modificação no github foi salva
   * crie um diretorio tmp em um local a parte
-  * Execute o comando de clonagem novamente (**_git clone http://github.com/<seueEspaço>/nomeDoRepositorio.git**)
+  * Execute o comando de clonagem novamente (**_git clone http://github.com/<seuEspaço>/nomeDoRepositorio.git_**)
   * Abra os arquivos .java e confira se as últimas modificações estão presente.* 
 
 ### Atividade 3 - Modelagem e implementação de software
