@@ -14,7 +14,7 @@ Apesar de ter citado estas duas ferramentas, sinta-se livre para escolher a ferr
   
   Há um diferentes recursos que podem ser utilizados para controle de versão, tais como SVN, CVS. Adicionalmente, existe o GIT (em uso neste momento). Por ser uma ferramenta online e disponível de modo gratuito, ele será utilizado nesta disciplina. Sendo assim, será disponbilizado um espaço para experimentação e compartilhamento de usos deste serviço.
   
-### Criando uma conta no **GITHUB*
+### Criando uma conta no **GITHUB**
 
   Como dito, o objetivo é utilizarmos o github como ferramenta de versionamento. Sendo assim, é necessária a criação de uma conta.
   Acesse o [github](http://github.com), e clique no link **sign up**. Preencha os dados básicos solicitados. Sua conta será explorada nas atividades previstas neste docmento.
