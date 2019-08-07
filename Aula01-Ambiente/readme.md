@@ -68,12 +68,24 @@ A seguir, modifique os arquivos .java. Crie um método toString para a classe ca
 5. Teste se sua modificação no github foi salva
 5.1. crie um diretorio tmp em um local a parte
 5.2. Execute o comando de clonagem novamente (**_git clone http://github.com/<seueEspaço>/nomeDoRepositorio.git**)
-5.3. Abra os arquivos .java e confira se as últimas modificações estão presente.
+5.3. Abra os arquivos .java e confira se as últimas modificações estão presente.* 
 
 ### Atividade 3 - Modelagem e implementação de software
 
 Desenvolva um programa em java considerando a seguinte descrição:
 
+1. Crie um diretorio onde voce deverá elaborar o seguinte programa
+
 Elabore um programa que permita o cadastramento de funcionários e departamentos de uma empresa. A empresa deve ter no máximo 5 departamentos. Os funcionários podem ser de 3 tipos: (a) operários, (b) secretário ou (c) Gerente. Cada departamento deve ter exatamente um gerente e um secretário e no máximo 5 funcionários. Para evitar confitos na empresa, a diferença salarial entre os funcionários de um departamento deve ser de no máximo de 20%. Ao final, deve ser possível listar os funcionários, os departamentos e os departamentos e seus funcionários.
 
-Salve seu código no github
+2. Salve seu código no github
+2.1. De dentro do diretorio onde criou o seu código digite
+2.1.1. *git init*
+2.1.2. *git add \*.java .*
+2.1.3. *git commit -m "primeira versao do codigo"*
+2.1.4. Acesse seu espaço no github e crie um repositorio zerado
+2.1.4.1. Acesse github.com e faça login
+2.1.4.2. Clique na aba Repositorio/Repository
+2.1.4.3. Clique em novo/new, de o nome novoRepositorio ao seu repositorio e em seguida clique no botão Criar Repositorio ao final da página
+2.1.5. De volta ao console, digite *git remote add origin https://github.com/seuEspaço/novoRepositorio*
+2.1.6. *git push -u origin master*
